@@ -1,0 +1,12 @@
+/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/SDL3-shared.dir
+/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/SDL3_test.dir
+/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/SDL_uclibc.dir
+/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/uninstall.dir
+/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/package.dir
+/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/package_source.dir
+/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/edit_cache.dir
+/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/rebuild_cache.dir
+/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/list_install_components.dir
+/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/install.dir
+/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/install/local.dir
+/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/install/strip.dir

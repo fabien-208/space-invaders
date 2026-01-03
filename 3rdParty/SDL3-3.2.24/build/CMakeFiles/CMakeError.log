@@ -1,0 +1,674 @@
+Performing C SOURCE FILE Test HAVE_GCC_WDOCUMENTATION failed with the following output:
+Change Dir: /home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_56c11/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_56c11.dir/build.make CMakeFiles/cmTC_56c11.dir/build
+gmake[1]: Entering directory '/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_56c11.dir/src.c.o
+/usr/bin/cc -DHAVE_GCC_WDOCUMENTATION  -D_GNU_SOURCE=1   -Wdocumentation -o CMakeFiles/cmTC_56c11.dir/src.c.o -c "/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/src.c"
+cc: error: unrecognized command-line option '-Wdocumentation'
+gmake[1]: *** [CMakeFiles/cmTC_56c11.dir/build.make:78: CMakeFiles/cmTC_56c11.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_56c11/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_WDOCUMENTATION_UNKNOWN_COMMAND failed with the following output:
+Change Dir: /home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3c03b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3c03b.dir/build.make CMakeFiles/cmTC_3c03b.dir/build
+gmake[1]: Entering directory '/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3c03b.dir/src.c.o
+/usr/bin/cc -DHAVE_GCC_WDOCUMENTATION_UNKNOWN_COMMAND  -D_GNU_SOURCE=1   -Wdocumentation-unknown-command -o CMakeFiles/cmTC_3c03b.dir/src.c.o -c "/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/src.c"
+cc: error: unrecognized command-line option '-Wdocumentation-unknown-command'
+gmake[1]: *** [CMakeFiles/cmTC_3c03b.dir/build.make:78: CMakeFiles/cmTC_3c03b.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_3c03b/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_COMMENT_BLOCK_COMMANDS failed with the following output:
+Change Dir: /home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a9b1b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a9b1b.dir/build.make CMakeFiles/cmTC_a9b1b.dir/build
+gmake[1]: Entering directory '/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a9b1b.dir/src.c.o
+/usr/bin/cc -DHAVE_GCC_COMMENT_BLOCK_COMMANDS  -D_GNU_SOURCE=1   -fcomment-block-commands=threadsafety -o CMakeFiles/cmTC_a9b1b.dir/src.c.o -c "/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/src.c"
+cc: error: unrecognized command-line option '-fcomment-block-commands=threadsafety'
+gmake[1]: *** [CMakeFiles/cmTC_a9b1b.dir/build.make:78: CMakeFiles/cmTC_a9b1b.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_a9b1b/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_CLANG_COMMENT_BLOCK_COMMANDS failed with the following output:
+Change Dir: /home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b5d1f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b5d1f.dir/build.make CMakeFiles/cmTC_b5d1f.dir/build
+gmake[1]: Entering directory '/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b5d1f.dir/src.c.o
+/usr/bin/cc -DHAVE_CLANG_COMMENT_BLOCK_COMMANDS  -D_GNU_SOURCE=1   /clang:-fcomment-block-commands=threadsafety -o CMakeFiles/cmTC_b5d1f.dir/src.c.o -c "/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/src.c"
+cc: warning: /clang:-fcomment-block-commands=threadsafety: linker input file unused because linking not done
+cc: error: /clang:-fcomment-block-commands=threadsafety: linker input file not found: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTC_b5d1f.dir/build.make:78: CMakeFiles/cmTC_b5d1f.dir/src.c.o] Error 1
+gmake[1]: *** Deleting file 'CMakeFiles/cmTC_b5d1f.dir/src.c.o'
+gmake[1]: Leaving directory '/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_b5d1f/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Determining if the _i64toa exist failed with the following output:
+Change Dir: /home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_97452/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_97452.dir/build.make CMakeFiles/cmTC_97452.dir/build
+gmake[1]: Entering directory '/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_97452.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_97452.dir/CheckSymbolExists.c.o -c "/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: error: ‘_i64toa’ undeclared (first use in this function)
+   26 |   return ((int*)(&_i64toa))[argc];
+      |                   ^~~~~~~
+/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_97452.dir/build.make:78: CMakeFiles/cmTC_97452.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_97452/fast] Error 2
+
+
+File /home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _i64toa
+  return ((int*)(&_i64toa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the itoa exist failed with the following output:
+Change Dir: /home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b9338/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b9338.dir/build.make CMakeFiles/cmTC_b9338.dir/build
+gmake[1]: Entering directory '/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b9338.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_b9338.dir/CheckSymbolExists.c.o -c "/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: error: ‘itoa’ undeclared (first use in this function)
+   26 |   return ((int*)(&itoa))[argc];
+      |                   ^~~~
+/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_b9338.dir/build.make:78: CMakeFiles/cmTC_b9338.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_b9338/fast] Error 2
+
+
+File /home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef itoa
+  return ((int*)(&itoa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _ltoa exist failed with the following output:
+Change Dir: /home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dc249/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dc249.dir/build.make CMakeFiles/cmTC_dc249.dir/build
+gmake[1]: Entering directory '/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dc249.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_dc249.dir/CheckSymbolExists.c.o -c "/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: error: ‘_ltoa’ undeclared (first use in this function)
+   26 |   return ((int*)(&_ltoa))[argc];
+      |                   ^~~~~
+/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_dc249.dir/build.make:78: CMakeFiles/cmTC_dc249.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_dc249/fast] Error 2
+
+
+File /home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _ltoa
+  return ((int*)(&_ltoa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sqr exist failed with the following output:
+Change Dir: /home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1d27d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1d27d.dir/build.make CMakeFiles/cmTC_1d27d.dir/build
+gmake[1]: Entering directory '/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1d27d.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_1d27d.dir/CheckSymbolExists.c.o -c "/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: error: ‘sqr’ undeclared (first use in this function); did you mean ‘sqrt’?
+   26 |   return ((int*)(&sqr))[argc];
+      |                   ^~~
+      |                   sqrt
+/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_1d27d.dir/build.make:78: CMakeFiles/cmTC_1d27d.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_1d27d/fast] Error 2
+
+
+File /home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sqr
+  return ((int*)(&sqr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strlcat exist failed with the following output:
+Change Dir: /home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_07a9d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_07a9d.dir/build.make CMakeFiles/cmTC_07a9d.dir/build
+gmake[1]: Entering directory '/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_07a9d.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_07a9d.dir/CheckSymbolExists.c.o -c "/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: error: ‘strlcat’ undeclared (first use in this function); did you mean ‘strncat’?
+   26 |   return ((int*)(&strlcat))[argc];
+      |                   ^~~~~~~
+      |                   strncat
+/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_07a9d.dir/build.make:78: CMakeFiles/cmTC_07a9d.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_07a9d/fast] Error 2
+
+
+File /home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlcat
+  return ((int*)(&strlcat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strlcpy exist failed with the following output:
+Change Dir: /home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4a465/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4a465.dir/build.make CMakeFiles/cmTC_4a465.dir/build
+gmake[1]: Entering directory '/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4a465.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_4a465.dir/CheckSymbolExists.c.o -c "/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: error: ‘strlcpy’ undeclared (first use in this function); did you mean ‘strncpy’?
+   26 |   return ((int*)(&strlcpy))[argc];
+      |                   ^~~~~~~
+      |                   strncpy
+/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_4a465.dir/build.make:78: CMakeFiles/cmTC_4a465.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_4a465/fast] Error 2
+
+
+File /home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlcpy
+  return ((int*)(&strlcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strnstr exist failed with the following output:
+Change Dir: /home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_af163/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_af163.dir/build.make CMakeFiles/cmTC_af163.dir/build
+gmake[1]: Entering directory '/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_af163.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_af163.dir/CheckSymbolExists.c.o -c "/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: error: ‘strnstr’ undeclared (first use in this function); did you mean ‘strstr’?
+   26 |   return ((int*)(&strnstr))[argc];
+      |                   ^~~~~~~
+      |                   strstr
+/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_af163.dir/build.make:78: CMakeFiles/cmTC_af163.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_af163/fast] Error 2
+
+
+File /home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strnstr
+  return ((int*)(&strnstr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcslcat exist failed with the following output:
+Change Dir: /home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e51de/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e51de.dir/build.make CMakeFiles/cmTC_e51de.dir/build
+gmake[1]: Entering directory '/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e51de.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_e51de.dir/CheckSymbolExists.c.o -c "/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: error: ‘wcslcat’ undeclared (first use in this function); did you mean ‘wcsncat’?
+   26 |   return ((int*)(&wcslcat))[argc];
+      |                   ^~~~~~~
+      |                   wcsncat
+/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_e51de.dir/build.make:78: CMakeFiles/cmTC_e51de.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_e51de/fast] Error 2
+
+
+File /home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcslcat
+  return ((int*)(&wcslcat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcslcpy exist failed with the following output:
+Change Dir: /home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9415f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9415f.dir/build.make CMakeFiles/cmTC_9415f.dir/build
+gmake[1]: Entering directory '/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9415f.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_9415f.dir/CheckSymbolExists.c.o -c "/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: error: ‘wcslcpy’ undeclared (first use in this function); did you mean ‘wcsncpy’?
+   26 |   return ((int*)(&wcslcpy))[argc];
+      |                   ^~~~~~~
+      |                   wcsncpy
+/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_9415f.dir/build.make:78: CMakeFiles/cmTC_9415f.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_9415f/fast] Error 2
+
+
+File /home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcslcpy
+  return ((int*)(&wcslcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sysctlbyname exist failed with the following output:
+Change Dir: /home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_157f6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_157f6.dir/build.make CMakeFiles/cmTC_157f6.dir/build
+gmake[1]: Entering directory '/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_157f6.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_157f6.dir/CheckSymbolExists.c.o -c "/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:3:10: fatal error: sys/sysctl.h: No such file or directory
+    3 | #include <sys/sysctl.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_157f6.dir/build.make:78: CMakeFiles/cmTC_157f6.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_157f6/fast] Error 2
+
+
+File /home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/sysctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysctlbyname
+  return ((int*)(&sysctlbyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the elf_aux_info exist failed with the following output:
+Change Dir: /home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9d74e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9d74e.dir/build.make CMakeFiles/cmTC_9d74e.dir/build
+gmake[1]: Entering directory '/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9d74e.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_9d74e.dir/CheckSymbolExists.c.o -c "/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘elf_aux_info’ undeclared (first use in this function)
+    8 |   return ((int*)(&elf_aux_info))[argc];
+      |                   ^~~~~~~~~~~~
+/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_9d74e.dir/build.make:78: CMakeFiles/cmTC_9d74e.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_9d74e/fast] Error 2
+
+
+File /home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/auxv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef elf_aux_info
+  return ((int*)(&elf_aux_info))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test ICONV_IN_LIBICONV failed with the following output:
+Change Dir: /home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d4b17/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d4b17.dir/build.make CMakeFiles/cmTC_d4b17.dir/build
+gmake[1]: Entering directory '/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d4b17.dir/src.c.o
+/usr/bin/cc -DICONV_IN_LIBICONV  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_d4b17.dir/src.c.o -c "/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/src.c"
+Linking C executable cmTC_d4b17
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4b17.dir/link.txt --verbose=1
+/usr/bin/cc   -D_GNU_SOURCE=1 CMakeFiles/cmTC_d4b17.dir/src.c.o -o cmTC_d4b17  -liconv 
+/usr/bin/ld: cannot find -liconv: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_d4b17.dir/build.make:99: cmTC_d4b17] Error 1
+gmake[1]: Leaving directory '/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_d4b17/fast] Error 2
+
+
+Source file was:
+
+        #include <stddef.h>
+        #include <iconv.h>
+        int main(int argc, char **argv) {
+            return !iconv_open(NULL,NULL);
+        }
+Performing C SOURCE FILE Test LIBC_HAS_WORKING_LIBUNWIND failed with the following output:
+Change Dir: /home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ee783/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ee783.dir/build.make CMakeFiles/cmTC_ee783.dir/build
+gmake[1]: Entering directory '/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ee783.dir/src.c.o
+/usr/bin/cc -DLIBC_HAS_WORKING_LIBUNWIND  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_ee783.dir/src.c.o -c "/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/src.c"
+/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/src.c:1:16: fatal error: libunwind.h: No such file or directory
+    1 |       #include <libunwind.h>
+      |                ^~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_ee783.dir/build.make:78: CMakeFiles/cmTC_ee783.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_ee783/fast] Error 2
+
+
+Source file was:
+      #include <libunwind.h>
+      int main(int argc, char *argv[]) {
+        (void)argc; (void)argv;
+        unw_context_t context;
+        unw_cursor_t cursor;
+        unw_word_t pc;
+        char sym[256];
+        unw_word_t offset;
+        unw_getcontext(&context);
+        unw_step(&cursor);
+        unw_get_reg(&cursor, UNW_REG_IP, &pc);
+        unw_get_proc_name(&cursor, sym, sizeof(sym), &offset);
+        return 0;
+      }
+Performing C SOURCE FILE Test LIBUNWIND_HAS_WORKINGLIBUNWIND failed with the following output:
+Change Dir: /home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_33e5d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_33e5d.dir/build.make CMakeFiles/cmTC_33e5d.dir/build
+gmake[1]: Entering directory '/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_33e5d.dir/src.c.o
+/usr/bin/cc -DLIBUNWIND_HAS_WORKINGLIBUNWIND  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_33e5d.dir/src.c.o -c "/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/src.c"
+/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/src.c:1:16: fatal error: libunwind.h: No such file or directory
+    1 |       #include <libunwind.h>
+      |                ^~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_33e5d.dir/build.make:78: CMakeFiles/cmTC_33e5d.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_33e5d/fast] Error 2
+
+
+Source file was:
+      #include <libunwind.h>
+      int main(int argc, char *argv[]) {
+        (void)argc; (void)argv;
+        unw_context_t context;
+        unw_cursor_t cursor;
+        unw_word_t pc;
+        char sym[256];
+        unw_word_t offset;
+        unw_getcontext(&context);
+        unw_step(&cursor);
+        unw_get_reg(&cursor, UNW_REG_IP, &pc);
+        unw_get_proc_name(&cursor, sym, sizeof(sym), &offset);
+        return 0;
+      }
+Determining if the include file pthread_np.h exists failed with the following output:
+Change Dir: /home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c64a0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c64a0.dir/build.make CMakeFiles/cmTC_c64a0.dir/build
+gmake[1]: Entering directory '/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c64a0.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -D_GNU_SOURCE=1 -D_REENTRANT -pthread -o CMakeFiles/cmTC_c64a0.dir/CheckIncludeFile.c.o -c "/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: pthread_np.h: No such file or directory
+    1 | #include <pthread_np.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_c64a0.dir/build.make:78: CMakeFiles/cmTC_c64a0.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory '/home/fabien/cours/cours/L3/Semestre 5/C avancé/Projet Space Invaders/3rdParty/SDL3-3.2.24/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_c64a0/fast] Error 2
+
+
+

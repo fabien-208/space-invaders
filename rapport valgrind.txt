@@ -1,0 +1,66 @@
+==491== Memcheck, a memory error detector
+==491== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==491== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==491== Command: ./jeu
+==491==
+==491==
+==491== HEAP SUMMARY:
+==491==     in use at exit: 881,892 bytes in 5,867 blocks
+==491==   total heap usage: 348,467 allocs, 342,600 frees, 827,369,599 bytes allocated
+==491==
+==491== 1,202 bytes in 2 blocks are definitely lost in loss record 2,756 of 2,788
+==491==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==491==    by 0x5A3BC73: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+==491==    by 0x5A39173: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+==491==    by 0x5A33E98: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+==491==    by 0x5A38718: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+==491==    by 0x5A3978C: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+==491==    by 0x5A35068: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+==491==    by 0x49D969C: X11_GL_GetVisual (SDL_x11opengl.c:688)
+==491==    by 0x49D9CCF: X11_GL_InitExtensions (SDL_x11opengl.c:351)
+==491==    by 0x49D9CCF: X11_GL_LoadLibrary (SDL_x11opengl.c:247)
+==491==    by 0x499BF09: SDL_GL_LoadLibrary_REAL (SDL_video.c:4484)
+==491==    by 0x499E5A7: SDL_RecreateWindow (SDL_video.c:2681)
+==491==    by 0x4907DE7: GL_CreateRenderer (SDL_render_gl.c:1656)
+==491==
+==491== 172,032 (448 direct, 171,584 indirect) bytes in 2 blocks are definitely lost in loss record 2,786 of 2,788
+==491==    at 0x484D953: calloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==491==    by 0x5A37C0E: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+==491==    by 0x5A38F1F: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+==491==    by 0x5A39134: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+==491==    by 0x5A33E98: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+==491==    by 0x5A38718: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+==491==    by 0x5A3978C: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+==491==    by 0x5A35068: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+==491==    by 0x49D969C: X11_GL_GetVisual (SDL_x11opengl.c:688)
+==491==    by 0x49D9CCF: X11_GL_InitExtensions (SDL_x11opengl.c:351)
+==491==    by 0x49D9CCF: X11_GL_LoadLibrary (SDL_x11opengl.c:247)
+==491==    by 0x499BF09: SDL_GL_LoadLibrary_REAL (SDL_video.c:4484)
+==491==    by 0x499E5A7: SDL_RecreateWindow (SDL_video.c:2681)
+==491==
+==491== 279,552 (448 direct, 279,104 indirect) bytes in 2 blocks are definitely lost in loss record 2,788 of 2,788
+==491==    at 0x484D953: calloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==491==    by 0x5A37C0E: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+==491==    by 0x5A38F1F: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+==491==    by 0x5A391E6: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+==491==    by 0x5A33E98: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+==491==    by 0x5A38718: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+==491==    by 0x5A3978C: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+==491==    by 0x5A35068: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+==491==    by 0x49D969C: X11_GL_GetVisual (SDL_x11opengl.c:688)
+==491==    by 0x49D9CCF: X11_GL_InitExtensions (SDL_x11opengl.c:351)
+==491==    by 0x49D9CCF: X11_GL_LoadLibrary (SDL_x11opengl.c:247)
+==491==    by 0x499BF09: SDL_GL_LoadLibrary_REAL (SDL_video.c:4484)
+==491==    by 0x499E5A7: SDL_RecreateWindow (SDL_video.c:2681)
+==491==
+==491== LEAK SUMMARY:
+==491==    definitely lost: 2,098 bytes in 6 blocks
+==491==    indirectly lost: 450,688 bytes in 2,012 blocks
+==491==      possibly lost: 0 bytes in 0 blocks
+==491==    still reachable: 429,106 bytes in 3,849 blocks
+==491==         suppressed: 0 bytes in 0 blocks
+==491== Reachable blocks (those to which a pointer was found) are not shown.
+==491== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==491==
+==491== For lists of detected and suppressed errors, rerun with: -s
+==491== ERROR SUMMARY: 3 errors from 3 contexts (suppressed: 0 from 0)
